@@ -15,10 +15,10 @@ public class Database {
 	private static String password;
   
 	public static void openConnection() {
-	    host = "144.217.66.186";
-	    database = "xbenzbhw_server";
-	    username = "xbenzbhw";
-	    password = "Gwe1G7v0Ce.[Y5";
+	    host = "";
+	    database = "";
+	    username = "";
+	    password = "";
 	    try {
 	    	if ((connection != null) && (!connection.isClosed())) {
 	    		return;
